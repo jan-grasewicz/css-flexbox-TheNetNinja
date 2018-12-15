@@ -8,11 +8,12 @@ flex-basis: 200px; --similar to min-width:
 
 other command
 flex-wrap: wrap;
-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
 flex-flow: row;
-flex-flow: row-reverse;
-flex-flow: column;
-flex-flow: column-reverse;
+    flex-flow: row-reverse;
+    flex-flow: column;
+    flex-flow: column-reverse;
+align-items: center;
 */
 
 
@@ -33,12 +34,13 @@ body{
     background: #fff;
     flex-wrap: wrap;
     flex-flow: column;
-    justify-content: flex-start;
-    height: 800px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
 }
 .box{
-    height: 100px;
-    flex: 0 0 200px;
+    width: 100px;
+    flex: 0 0 100px;
 }
 .one{
     background: red;
